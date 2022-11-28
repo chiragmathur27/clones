@@ -24,7 +24,7 @@ function Header({ placeholder }) {
     key: "selection",
   };
 
-  const handleSelect = () => {
+  const handleSelect = (ranges) => {
     setStartDate(ranges.selection.startDate);
     setEndDate(ranges.selection.endDate);
   };
